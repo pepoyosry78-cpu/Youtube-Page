@@ -1,0 +1,35 @@
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    width: 120px;
+}
+
+.inside-side-bar div{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+    justify-content: start;  
+    margin-bottom: 4px 0px ; 
+    padding-left: 18px; 
+}
+
+.inside-side-bar img{
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+    padding-right: 24px;
+}
+
+.inside-side-bar div:hover{
+    background-color: rgb(206, 206, 206);
+
+}
+
+hr{
+
+}
